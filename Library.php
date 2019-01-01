@@ -43,6 +43,11 @@ session_start();
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3" style="margin-top: 100px">
+            <a href="Index.html">Projects</a>
+        </div>
+    </div>
 </div>
 </body>
 </html>

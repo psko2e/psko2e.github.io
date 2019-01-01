@@ -13,12 +13,12 @@ if (!empty($_POST) && $_SERVER['REQUEST_METHOD'] == "POST"){
     }
     else{
         $_SESSION['ErrorMessage'] = "User ID & Password mismatch";
-        header('Location:index.php');
+        header('Location:Library.php');
         exit();
     }
 }
 else{
     $_SESSION['ErrorMessage'] = "Invalid Access";
-    header('Location:index.php');
+    header('Location:Library.php');
     exit();
 }
